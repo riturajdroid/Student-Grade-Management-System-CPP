@@ -38,7 +38,7 @@ This codebase represents:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/student-grade-system.git](https://github.com/yourusername/student-grade-system.git)
+    git clone [https://github.com/riturajdroid/student-grade-system.git](https://github.com/riturajdroid/student-grade-system.git)
     ```
 2.  **Navigate to the directory:**
     ```bash
@@ -67,4 +67,5 @@ As I continue to learn Data Structures and Algorithms (DSA), I plan to update th
 This is a learning project, but suggestions are welcome! If you see a way to optimize the vector operations or improve the class design, feel free to open an issue.
 
 ---
+
 *Built with C++ and a Growth Mindset.*
