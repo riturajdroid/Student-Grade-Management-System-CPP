@@ -52,7 +52,8 @@ This codebase represents:
     ```bash
     ./gradebook
     ```
-
+## Screenshot
+<img width="1483" height="634" alt="Screenshot 2026-01-06 000816" src="https://github.com/user-attachments/assets/84287b40-586a-4e95-99da-8a4786238ba8" />
 ## 🔮 Future Improvements (Roadmap)
 
 As I continue to learn Data Structures and Algorithms (DSA), I plan to update this project with:
@@ -69,3 +70,4 @@ This is a learning project, but suggestions are welcome! If you see a way to opt
 ---
 
 *Built with C++ and a Growth Mindset.*
+
