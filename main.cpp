@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 class Student
@@ -32,6 +33,9 @@ public:
 
     double calculateAverage()
     {
+
+        if (grades.empty())
+            return 0.0;
         vector<int>::iterator itr = grades.begin();
         float sum = 0.0;
         for (int i = 0;; i++)
@@ -177,8 +181,11 @@ public:
             itr++;
         }
     }
-    void displayTopPerformers(int n) // dont know about <algorithm> as of present
+
+    void displayTopPerformers(int n) 
     {
+        sort(student.begin(), student.end(), [](Student &a, Student &b)
+             { return a.calculateAverage() > b.calculateAverage(); });
         vector<Student>::iterator itr = student.begin();
         for (int i = 0; i < n; i++)
         {
@@ -197,6 +204,8 @@ public:
 
     double getClassAverage()
     {
+        if (student.empty())
+            return 0.0;
         vector<Student>::iterator itr = student.begin();
         float sum = 0;
         for (int i = 0;; i++)
