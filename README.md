@@ -11,11 +11,6 @@ This codebase represents:
 * **Object-Oriented Design:** Encapsulating data in `Student` and `GradeBook` classes.
 * **Manual Iterator Management:** Using explicit iterators to understand how C++ handles memory and traversal "under the hood" before moving to modern abstractions.
 
-## ⚠️ Current Limitations (Work in Progress)
-
-* **Top Performers Logic:** The `displayTopPerformers` function currently displays the **first N students** added to the system rather than the actual highest scorers.
-    * *Reason:* I have not yet implemented `<algorithm>` or `std::sort`. As I move into Data Structures and Algorithms (DSA), I will update this to sort the vector by GPA before displaying.
-
 ## 🛠 Features
 
 * **Student Management:** Add new students and remove existing ones by Roll Number.
@@ -71,5 +66,6 @@ This is a learning project, but suggestions are welcome! If you see a way to opt
 ---
 
 *Built with C++ and a Growth Mindset.*
+
 
 
