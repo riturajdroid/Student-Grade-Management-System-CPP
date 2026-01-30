@@ -28,6 +28,7 @@ This codebase represents:
 * **Iterators:** Explicit use of `vector<type>::iterator` for traversing data structures.
 * **Pointers:** Referencing objects within vectors for updates.
 * **Switch-Case Logic:** Menu-driven CLI interface.
+* **Sort algorithm:** Implemented sort algorithm to get the top performers.
 
 ## ⚙️ How to Run
 
@@ -66,6 +67,7 @@ This is a learning project, but suggestions are welcome! If you see a way to opt
 ---
 
 *Built with C++ and a Growth Mindset.*
+
 
 
 
